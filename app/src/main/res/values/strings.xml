@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">alarm_clock</string>
+
+    <string name="description">Описание</string>
+
+    <string-array name="week_days">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+
+    <string name="notification">Оповещение</string>
+    <string name="in">В</string>
+    <string name="alarm">Будильник</string>
+    <string name="no_alarms">Будильники отсутствуют</string>
+    <string name="set_alarm">Установить будильник</string>
+    <string name="type_and_complexity">Тип и сложность</string>
+    <string name="save">Сохранить</string>
+    <string name="off_type">Тип выключения</string>
+    <string name="comp">Сложность</string>
+    <string name="complicated">Сложно</string>
+    <string name="mat">Математический</string>
+    <string name="conn_elem">Соединение элементов</string>
+    <string name="random">Случайно</string>
+    <string name="medium">Средняя сложность</string>
+    <string name="easy">Просто</string>
+
+</resources>

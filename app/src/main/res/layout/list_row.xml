@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/type_image"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/plus" />
+
+    <ImageView
+        android:id="@+id/complexity_image"
+        android:layout_width="30dp"
+        android:layout_height="8dp"
+        android:layout_below="@+id/type_image"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/lite" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/type_image"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/type_image"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/date"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/type_image"
+        android:maxLines="2"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weekday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="13sp" />
+
+    <Switch
+        android:id="@+id/sw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/weekday"
+        android:focusable="false"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
+</RelativeLayout>

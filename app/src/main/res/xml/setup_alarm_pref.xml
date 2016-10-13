@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Настройки">
+        <SwitchPreference
+            android:key="repeat"
+            android:title="Повтор"></SwitchPreference>
+
+        <PreferenceScreen android:title="Тип и сложность">
+            <intent
+                android:targetClass="com.example.alarm_clock.activities.TypeAndComplexityActivity"
+                android:targetPackage="com.example.alarm_clock" />
+        </PreferenceScreen>
+
+        <PreferenceScreen android:title="Мелодия"></PreferenceScreen>
+
+    </PreferenceCategory>
+</PreferenceScreen>
